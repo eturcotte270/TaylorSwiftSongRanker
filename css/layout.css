@@ -1,0 +1,75 @@
+/* CONTAINS THE LAYOUT STRUCTURE */
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr .2fr 0.2fr 0.3fr 1fr 1fr;
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header Header Header Header"
+      "Debut Fearless SpeakNow Red _1989 Reputation"
+      "Lover Folklore Evermore Midnights TTPD All"
+      "Question Question Question Question Question Question"
+      ". Song1 . . Song2 ."
+      ". . Rank Rank . .";
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .Debut { grid-area: Debut; }
+  
+  .Fearless { grid-area: Fearless; }
+  
+  .SpeakNow { grid-area: SpeakNow; }
+  
+  .Red { grid-area: Red; }
+  
+  ._1989 { grid-area: _1989; }
+  
+  .Reputation { grid-area: Reputation; }
+  
+  .Lover { grid-area: Lover; }
+  
+  .Evermore { grid-area: Evermore; }
+  
+  .Midnights { grid-area: Midnights; }
+  
+  .TTPD { grid-area: TTPD; }
+  
+  .All { grid-area: All; }
+  
+  .Folklore { grid-area: Folklore; }
+  
+  .Question { grid-area: Question; }
+  
+  .Song1 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Button1"
+      "Music1";
+    grid-area: Song1;
+  }
+  
+  .Button1 { grid-area: Button1; }
+  
+  .Music1 { grid-area: Music1; }
+  
+  .Song2 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Button2"
+      "Music2";
+    grid-area: Song2;
+  }
+  
+  .Button2 { grid-area: Button2; }
+  
+  .Music2 { grid-area: Music2; }
+
+  .Rank { grid-area: Rank; }
+  
