@@ -3,7 +3,7 @@ EECE 3093C Course Project
 
 This is an application to rank Taylor Swift songs based on user preference.
 
-The site is deployed to: 
+The site is deployed to: https://taylorswiftsongranker.netlify.app/
 
 TODOs:
 - Implement function to update the ranking order based on user selection and to display next comparison
