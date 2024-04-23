@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Taylor Swift Song Ranker</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layout.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="Header">
+                <h1><center>TAYLOR SWIFT SONG RANKER</center></h1>
+                <a><center>Select which album or all songs below</center></a>
+            </div>
+            <div class="Debut">
+                <button class = "buttonDebut" id="DebutBut" onclick="albumDebut()">Debut</button>
+            </div>
+            <div class="Fearless">
+                <button class = "buttonFearless" id="FearlessBut" onclick="albumFearless()">Fearless</button>
+            </div>
+            <div class="SpeakNow">
+                <button class = "buttonSpeakNow" id="SpeakNowBut" onclick="albumSpeakNow()">Speak Now</button>
+            </div>
+            <div class="Red">
+                <button class = "buttonRed" id="RedBut" onclick="albumRed()">Red</button>
+            </div>
+            <div class="_1989">
+                <button class = "button1989" id="1989But" onclick="album1989()">1989</button>
+            </div>
+            <div class="Reputation">
+                <button class = "buttonReputation" id="ReputationBut" onclick="albumReputation()">Reputation</button>
+            </div>
+            <div class="Lover">
+                <button class = "buttonLover" id="LoverBut" onclick="albumLover()">Lover</button>
+            </div>
+            <div class="Folklore">
+                <button class = "buttonFolklore" id="FolkloreBut" onclick="albumFolklore()">Folklore</button>
+            </div>
+            <div class="Evermore">
+                <button class = "buttonEvermore" id="EvermoreBut" onclick="albumEvermore()">Evermore</button>
+            </div>
+            <div class="Midnights">
+                <button class = "buttonMidnights" id="MidnightsBut" onclick="albumMidnights()">Midnights</button>
+            </div>
+            <div class="TTPD">
+                <button class = "buttonTTPD" id="TTPDBut" onclick="albumTTPD()">The Tortured Poets Department</button>
+            </div>
+            <div class="All">
+                <button class = "buttonAll" id="AllBut" onclick="albumAll()">All Songs</button>
+            </div>
+            <div class="Question">
+                <center><a id = "albumSelected">Album Selected: None</a></center>
+                <h2><center>Which Song Do You Like More?</center></h2>
+            </div>
+            <div class="Song1">
+              <div class="Button1">
+                <button class = "button songButton" id="song1But" onclick="song1ButFunc()">Please Select An Album</button>
+              </div>
+              <div class="Music1">
+                <iframe id = "song1Mus" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+              </div>
+            </div>
+            <div class="Song2">
+              <div class="Button2">
+                <button class = "button songButton" id="song2But">Please Select An Album</button>
+              </div>
+              <div class="Music2">
+                <iframe id = "song2Mus" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+              </div>
+            </div>
+            <div class="Rank">
+                <p id = "rankList"></p>
+            </div>
+          </div>
+
+
+
+        <script src = "js/main.js"></script>
+
+    </body>
+</html>
+
